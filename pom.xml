@@ -64,5 +64,5 @@
         </plugins>
         <finalName>jenkinsCiCd</finalName>
     </build>
-
+<!--SOME CHANGES-->
 </project>
