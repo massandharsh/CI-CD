@@ -12,7 +12,7 @@ public class CiCdDemoApplication {
 
     @GetMapping("/greetings/{name}")
     public String greetings(@PathVariable String name){
-        return "Hello " + name + "CI / CD course with Harsh!";
+        return "Hello " + name + "CI / CD course";
     }
     public static void main(String[] args) {
         SpringApplication.run(CiCdDemoApplication.class, args);
